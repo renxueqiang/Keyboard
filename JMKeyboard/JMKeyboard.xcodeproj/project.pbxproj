@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BB14F9251855ED000F2CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB14F8251855ED000F2CDC /* AppDelegate.m */; };
+		84BB14FF251855ED000F2CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB14FE251855ED000F2CDC /* ViewController.m */; };
+		84BB1502251855ED000F2CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1500251855ED000F2CDC /* Main.storyboard */; };
+		84BB1504251855EF000F2CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1503251855EF000F2CDC /* Assets.xcassets */; };
+		84BB1507251855EF000F2CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1505251855EF000F2CDC /* LaunchScreen.storyboard */; };
+		84BB150A251855EF000F2CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1509251855EF000F2CDC /* main.m */; };
+		84BB1514251855EF000F2CDC /* JMKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1513251855EF000F2CDC /* JMKeyboardTests.m */; };
+		84BB151F251855EF000F2CDC /* JMKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB151E251855EF000F2CDC /* JMKeyboardUITests.m */; };
+		84BB152E251856B9000F2CDC /* JMKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB152D251856B9000F2CDC /* JMKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BB1510251855EF000F2CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB14EC251855ED000F2CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BB14F3251855ED000F2CDC;
+			remoteInfo = JMKeyboard;
+		};
+		84BB151B251855EF000F2CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB14EC251855ED000F2CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BB14F3251855ED000F2CDC;
+			remoteInfo = JMKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84BB14F4251855ED000F2CDC /* JMKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BB14F7251855ED000F2CDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84BB14F8251855ED000F2CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84BB14FD251855ED000F2CDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84BB14FE251855ED000F2CDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84BB1501251855ED000F2CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84BB1503251855EF000F2CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BB1506251855EF000F2CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84BB1508251855EF000F2CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BB1509251855EF000F2CDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BB150F251855EF000F2CDC /* JMKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BB1513251855EF000F2CDC /* JMKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMKeyboardTests.m; sourceTree = "<group>"; };
+		84BB1515251855EF000F2CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BB151A251855EF000F2CDC /* JMKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BB151E251855EF000F2CDC /* JMKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMKeyboardUITests.m; sourceTree = "<group>"; };
+		84BB1520251855EF000F2CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BB152C251856B9000F2CDC /* JMKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKeyboard.h; sourceTree = "<group>"; };
+		84BB152D251856B9000F2CDC /* JMKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKeyboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BB14F1251855ED000F2CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB150C251855EF000F2CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB1517251855EF000F2CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BB14EB251855ED000F2CDC = {
+			isa = PBXGroup;
+			children = (
+				84BB14F6251855ED000F2CDC /* JMKeyboard */,
+				84BB1512251855EF000F2CDC /* JMKeyboardTests */,
+				84BB151D251855EF000F2CDC /* JMKeyboardUITests */,
+				84BB14F5251855ED000F2CDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BB14F5251855ED000F2CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BB14F4251855ED000F2CDC /* JMKeyboard.app */,
+				84BB150F251855EF000F2CDC /* JMKeyboardTests.xctest */,
+				84BB151A251855EF000F2CDC /* JMKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BB14F6251855ED000F2CDC /* JMKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84BB14F7251855ED000F2CDC /* AppDelegate.h */,
+				84BB14F8251855ED000F2CDC /* AppDelegate.m */,
+				84BB14FD251855ED000F2CDC /* ViewController.h */,
+				84BB14FE251855ED000F2CDC /* ViewController.m */,
+				84BB152C251856B9000F2CDC /* JMKeyboard.h */,
+				84BB152D251856B9000F2CDC /* JMKeyboard.m */,
+				84BB1500251855ED000F2CDC /* Main.storyboard */,
+				84BB1503251855EF000F2CDC /* Assets.xcassets */,
+				84BB1505251855EF000F2CDC /* LaunchScreen.storyboard */,
+				84BB1508251855EF000F2CDC /* Info.plist */,
+				84BB1509251855EF000F2CDC /* main.m */,
+			);
+			path = JMKeyboard;
+			sourceTree = "<group>";
+		};
+		84BB1512251855EF000F2CDC /* JMKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1513251855EF000F2CDC /* JMKeyboardTests.m */,
+				84BB1515251855EF000F2CDC /* Info.plist */,
+			);
+			path = JMKeyboardTests;
+			sourceTree = "<group>";
+		};
+		84BB151D251855EF000F2CDC /* JMKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84BB151E251855EF000F2CDC /* JMKeyboardUITests.m */,
+				84BB1520251855EF000F2CDC /* Info.plist */,
+			);
+			path = JMKeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BB14F3251855ED000F2CDC /* JMKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BB1523251855EF000F2CDC /* Build configuration list for PBXNativeTarget "JMKeyboard" */;
+			buildPhases = (
+				84BB14F0251855ED000F2CDC /* Sources */,
+				84BB14F1251855ED000F2CDC /* Frameworks */,
+				84BB14F2251855ED000F2CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMKeyboard;
+			productName = JMKeyboard;
+			productReference = 84BB14F4251855ED000F2CDC /* JMKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BB150E251855EF000F2CDC /* JMKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BB1526251855EF000F2CDC /* Build configuration list for PBXNativeTarget "JMKeyboardTests" */;
+			buildPhases = (
+				84BB150B251855EF000F2CDC /* Sources */,
+				84BB150C251855EF000F2CDC /* Frameworks */,
+				84BB150D251855EF000F2CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BB1511251855EF000F2CDC /* PBXTargetDependency */,
+			);
+			name = JMKeyboardTests;
+			productName = JMKeyboardTests;
+			productReference = 84BB150F251855EF000F2CDC /* JMKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84BB1519251855EF000F2CDC /* JMKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BB1529251855EF000F2CDC /* Build configuration list for PBXNativeTarget "JMKeyboardUITests" */;
+			buildPhases = (
+				84BB1516251855EF000F2CDC /* Sources */,
+				84BB1517251855EF000F2CDC /* Frameworks */,
+				84BB1518251855EF000F2CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BB151C251855EF000F2CDC /* PBXTargetDependency */,
+			);
+			name = JMKeyboardUITests;
+			productName = JMKeyboardUITests;
+			productReference = 84BB151A251855EF000F2CDC /* JMKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BB14EC251855ED000F2CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84BB14F3251855ED000F2CDC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					84BB150E251855EF000F2CDC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 84BB14F3251855ED000F2CDC;
+					};
+					84BB1519251855EF000F2CDC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 84BB14F3251855ED000F2CDC;
+					};
+				};
+			};
+			buildConfigurationList = 84BB14EF251855ED000F2CDC /* Build configuration list for PBXProject "JMKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BB14EB251855ED000F2CDC;
+			productRefGroup = 84BB14F5251855ED000F2CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BB14F3251855ED000F2CDC /* JMKeyboard */,
+				84BB150E251855EF000F2CDC /* JMKeyboardTests */,
+				84BB1519251855EF000F2CDC /* JMKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BB14F2251855ED000F2CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1507251855EF000F2CDC /* LaunchScreen.storyboard in Resources */,
+				84BB1504251855EF000F2CDC /* Assets.xcassets in Resources */,
+				84BB1502251855ED000F2CDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB150D251855EF000F2CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB1518251855EF000F2CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BB14F0251855ED000F2CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB14FF251855ED000F2CDC /* ViewController.m in Sources */,
+				84BB14F9251855ED000F2CDC /* AppDelegate.m in Sources */,
+				84BB150A251855EF000F2CDC /* main.m in Sources */,
+				84BB152E251856B9000F2CDC /* JMKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB150B251855EF000F2CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1514251855EF000F2CDC /* JMKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB1516251855EF000F2CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB151F251855EF000F2CDC /* JMKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BB1511251855EF000F2CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BB14F3251855ED000F2CDC /* JMKeyboard */;
+			targetProxy = 84BB1510251855EF000F2CDC /* PBXContainerItemProxy */;
+		};
+		84BB151C251855EF000F2CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BB14F3251855ED000F2CDC /* JMKeyboard */;
+			targetProxy = 84BB151B251855EF000F2CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BB1500251855ED000F2CDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BB1501251855ED000F2CDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84BB1505251855EF000F2CDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BB1506251855EF000F2CDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BB1521251855EF000F2CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BB1522251855EF000F2CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BB1524251855EF000F2CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.JMKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BB1525251855EF000F2CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.JMKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84BB1527251855EF000F2CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.JMKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMKeyboard.app/JMKeyboard";
+			};
+			name = Debug;
+		};
+		84BB1528251855EF000F2CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMKeyboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.JMKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMKeyboard.app/JMKeyboard";
+			};
+			name = Release;
+		};
+		84BB152A251855EF000F2CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.JMKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JMKeyboard;
+			};
+			name = Debug;
+		};
+		84BB152B251855EF000F2CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JMKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qq.JMKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JMKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BB14EF251855ED000F2CDC /* Build configuration list for PBXProject "JMKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB1521251855EF000F2CDC /* Debug */,
+				84BB1522251855EF000F2CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BB1523251855EF000F2CDC /* Build configuration list for PBXNativeTarget "JMKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB1524251855EF000F2CDC /* Debug */,
+				84BB1525251855EF000F2CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BB1526251855EF000F2CDC /* Build configuration list for PBXNativeTarget "JMKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB1527251855EF000F2CDC /* Debug */,
+				84BB1528251855EF000F2CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BB1529251855EF000F2CDC /* Build configuration list for PBXNativeTarget "JMKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB152A251855EF000F2CDC /* Debug */,
+				84BB152B251855EF000F2CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BB14EC251855ED000F2CDC /* Project object */;
+}
